@@ -1,0 +1,19 @@
+{
+  "name": "Instagram",
+  "description": "Instagram17",
+  "scripts": {
+  },
+  "env": {
+    "KEY": "123456789"
+  },
+  "formation": {
+  },
+  "addons": [
+    "herokuconnect"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/Thyaki10/Instagram.git"
+    }
+  ]
+}
